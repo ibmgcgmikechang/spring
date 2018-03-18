@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: spring
+  buildpack: java_buildpack
+  path: ./target/spring-1.0-SNAPSHOT.jar
+  memory: 256M
+  random-route: true

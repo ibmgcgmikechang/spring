@@ -16,7 +16,7 @@ public class Example {
   public @ResponseBody ResponseEntity<String> example() {
     List<String> list = new ArrayList<>();
     //return a simple list of strings
-    list.add("Congratulations, your application is up and running, modify by mike20180507-1120");
+    list.add("Congratulations, your application is up and running, modify by mike20180806-1510");
     return new ResponseEntity<String>(list.toString(), HttpStatus.OK);
   }
 
